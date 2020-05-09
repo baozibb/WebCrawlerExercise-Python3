@@ -1,0 +1,5 @@
+*.pyc
+*/module4/ProxyPool/*.log
+/module3/result*/
+*/.idea
+*/.vscode
