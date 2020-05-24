@@ -22,6 +22,18 @@
 
 两种登录方式：
 
-1. 利用 cookies 维持登录后的session会话
-2. 利用 JWT(Json With Token)，在请求头部添加 jwt 信息，维持登录状态
+1. 利用 cookies 维持登录后的session会话 
+2. 利用 JWT(Json With Token)，在请求头部添加 jwt 信息，维持登录状态 
 
+cookies 测试网站：https://login2.scrape.cuiqingcai.com/
+JWT 测试网站：https://login3.scrape.cuiqingcai.com/
+
+* js-obfuscate
+
+利用 node.js 的 `javascript-obfuscator` 库，尝试了一下 JavaScript 混淆技术
+
+包括代码压缩、变量名混淆、僵尸代码注入、代码自我保护、调试保护、域名锁定等等
+
+简单了解了一下加密技术，Emscripten 和 WebAssembly 等
+
+Emscripten 和 WebAssembly 等 能将 C/C++ 转成 JavaScript 引擎可以运行的代码。可以将一些核心的功能利用 C/C++ 语言实现，形成浏览器字节码的形式。然后在 JavaScript 中调用
